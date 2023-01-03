@@ -30,7 +30,6 @@ class TBTop
                 void preorder_traversal();
                 TBTop()
                 {
-                	 root=new TBTnode;
                         root=NULL;
                         head=new TBTnode;
                         head->data=-1;
